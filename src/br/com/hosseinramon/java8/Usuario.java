@@ -1,6 +1,6 @@
 package br.com.hosseinramon.java8;
 
-public class Usuario {
+class Usuario {
 
 	private String nome;
 	private int pontos;
