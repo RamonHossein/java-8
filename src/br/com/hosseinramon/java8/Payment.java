@@ -12,7 +12,6 @@ class Payment {
 	private Customer customer;
 	
 	public Payment(List<Product> products, LocalDateTime date, Customer customer) {
-		super();
 		this.products = Collections.unmodifiableList(products);
 		this.date = date;
 		this.customer = customer;
